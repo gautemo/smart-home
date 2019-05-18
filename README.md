@@ -3,6 +3,7 @@ This is my smart home project, which will include a Google Assistant App, music 
 
 ## Firebase
 [Firebase console](https://console.firebase.google.com/project/smarthome-7704d/overview)
+
 Smart home state is stored in firestore.
 
 ### Firebase functions
