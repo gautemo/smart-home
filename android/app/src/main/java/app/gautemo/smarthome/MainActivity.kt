@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     fun addWeather(){
         val myWebView: WebView = findViewById(R.id.weatherView)
         myWebView.settings.javaScriptEnabled = true
+        myWebView.setBackgroundColor(0x00000000)
         myWebView.loadUrl("https://weather-oslo.netlify.com/")
     }
 }
